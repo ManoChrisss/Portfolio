@@ -1,4 +1,6 @@
 /* Reset básico */
+
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -276,6 +278,24 @@ section.visible h2, section.visible h1, section.visible p, section.visible ul, s
 
 .projeto a:hover {
     color: #f8b400;
+}
+
+#certificado {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #00adb5;
+    color: #232526;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px #00adb540;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+#certificado:hover {
+    background: #f8b400;
+    color: #232526;
+    transform: scale(1.10);
 }
 
 #contato ul {
