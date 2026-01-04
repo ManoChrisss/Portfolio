@@ -1,16 +1,5 @@
-// Animação das seções ao rolar a página
+// Animação das seções removida para um estilo mais simples
 document.addEventListener('DOMContentLoaded', function() {
-    function revealSections() {
-        document.querySelectorAll('section').forEach(function(section) {
-            const rect = section.getBoundingClientRect();
-            if(rect.top < window.innerHeight - 80) {
-                section.classList.add('visible');
-            }
-        });
-    }
-    window.addEventListener('scroll', revealSections);
-    revealSections();
-
     // Calcular idade automaticamente
     const nascimento = new Date(2005, 6, 10); // mês começa do zero: 6 = julho
     const hoje = new Date();
